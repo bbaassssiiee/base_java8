@@ -11,10 +11,5 @@ docker:
       image_version: latest
       ansible_groups:
         - group1
-    - name: base-java8-ubuntu
-      image: ubuntu
-      image_version: latest
-      ansible_groups:
-        - group2
 verifier:
   name: testinfra
